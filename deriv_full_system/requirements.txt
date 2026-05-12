@@ -1,0 +1,15 @@
+# Deriv AI Signal System — Python dependencies
+# Install: pip install -r requirements.txt
+
+# WebSocket (Deriv API)
+websockets>=12.0
+
+# Numerics / ML
+numpy>=1.26.0
+scikit-learn>=1.4.0
+
+# Telegram bot
+python-telegram-bot>=21.0
+
+# Local .env support (optional, ignored on Railway)
+python-dotenv>=1.0.0
